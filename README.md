@@ -1,2 +1,1 @@
-# BangaloreMemories2026
-A digital travel diary documenting our memorable 4-day family trip from Chennai to Bangalore from 8 June 2026 to 11 June 2026. Featuring daily experiences, photographs, videos, places visited, travel statistics, and cherished family memories.
+A beautiful travel memoir website capturing our 4-day Bangalore Family Trip (8-11 June 2026) with photos, videos, maps, statistics, and unforgettable memories.
