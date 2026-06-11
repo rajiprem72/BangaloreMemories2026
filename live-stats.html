@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Live Statistics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Trip By Numbers</h1>
+
+<h2 id="days">0</h2>
+<p>Days Travelled</p>
+
+<h2 id="places">0</h2>
+<p>Places Visited</p>
+
+<h2 id="friends">0</h2>
+<p>Friends & Family Met</p>
+
+</div>
+
+</div>
+
+<script>
+
+function animate(id,target){
+
+let count=0;
+
+let timer=setInterval(()=>{
+
+count++;
+
+document.getElementById(id).innerHTML=count;
+
+if(count>=target)
+clearInterval(timer);
+
+},100);
+
+}
+
+animate("days",4);
+animate("places",12);
+animate("friends",8);
+
+</script>
+
+</body>
+</html>
